@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".DetailsActivity">
 
-    <FrameLayout
+    <fragment
+        android:name="com.geek.a1_hw7.TextFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/details_frame_layout"/>
